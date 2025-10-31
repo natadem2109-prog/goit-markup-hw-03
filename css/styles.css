@@ -183,12 +183,10 @@ a {
   color: #434455;
   max-width: 264px;
 }
-.team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-list {
   display: flex;
