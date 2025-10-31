@@ -162,8 +162,9 @@ a {
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
-.advantages-container {
-  padding: 120px 0;
+.advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .block-title {
   font-weight: 500;
@@ -222,7 +223,7 @@ a {
 .text-center {
   text-align: center;
 }
-.portfolio-container {
+.portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
