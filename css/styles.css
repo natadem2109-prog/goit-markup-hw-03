@@ -110,7 +110,8 @@ a{text-decoration: none;}
     margin: 0 auto;
     align-items: center;
  }
-.btn{background-color: #4d5ae5;
+.btn{
+    background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -118,7 +119,9 @@ a{text-decoration: none;}
     color: #fff;
     cursor: pointer;
     border-radius: 4px;
-    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     display: block;
     margin: 0 auto;
 }
@@ -137,8 +140,7 @@ a{text-decoration: none;}
     overflow: hidden;
 }
 .advantages-container{
-    padding-top: 120px; 
-    padding-bottom: 120px;
+    padding: 120px 0 120px; 
 }
 .block-title{font-weight: 500;
     font-size: 20px;
@@ -147,7 +149,7 @@ a{text-decoration: none;}
     text-transform: capitalize;
     color: #2e2f42;
     padding-top: 32px;
-    padding-bottom: 8px;}
+    margin-bottom: 8px;}
 .block-text{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -155,7 +157,7 @@ a{text-decoration: none;}
     color: #434455;
     max-width: 264px;
 }
-.team-container{padding-bottom: 120px;}
+.team-container{padding: 120px 0 120px;}
 .team{
     background-color: #F4F4FD;
 }
@@ -175,12 +177,12 @@ a{text-decoration: none;}
     text-transform: capitalize;
     color: #2e2f42;
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .text-center{text-align: center; 
 }
 .portfolio-container{
-    padding-bottom: 120px; 
+    padding: 120px 0 120px; 
 }
 .portfolio-list{
     display: flex;
@@ -194,6 +196,7 @@ a{text-decoration: none;}
 .footer-color{color: #f4f4fd;
 padding-bottom: 100px;}
 .footer-logo{
+    display: inline-block;
     padding-top: 100px;
-    padding-bottom: 15px;
+    margin-bottom: 16px;
 }
